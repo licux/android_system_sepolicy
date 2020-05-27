@@ -38,6 +38,8 @@
 /(vendor|system/vendor)/bin/hostapd                                           u:object_r:hostapd_exec:s0
 /(vendor|system/vendor)/bin/vndservicemanager                                 u:object_r:vndservicemanager_exec:s0
 
+/(vendor|system/vendor)/bin/hw/vendor\.masaki\.hardware\.camera\.provider@2\.4-service          u:object_r:hal_camera_default_exec:s0
+
 #############################
 # Same process HALs installed by platform into /vendor
 #
